@@ -1,0 +1,20 @@
+{
+    "name": "@voroniyx/cache",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsup index.ts --format cjs,esm --dts",
+        "lint": "tsc",
+        "update": "npx changeset"
+    },
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "devDependencies": {
+        "tsup": "^8.0.1",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "@changesets/cli": "^2.27.1"
+    }
+}
